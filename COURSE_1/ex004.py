@@ -1,4 +1,6 @@
-variable = input("Digit something: ")
+'''Exercise: Write a program to read what user enter and print some of this variable's characteristics.'''
+
+variable = input("Enter something: ")
 
 print("The primitive type is ", type(variable))
 
