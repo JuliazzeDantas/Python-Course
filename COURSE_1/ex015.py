@@ -8,7 +8,6 @@ it has been rented. Calculate the price to pay.'''
 kilometers = float(input("Hoe many kilometers the car has traveled: "))
 days = int(input("How many days the car has been rented: "))
 
-days = days * 60
-kilometers = kilometers * 0.15
+payed = (days * 60) + kilometers * 0.15
 
-print("The costumer must to pay {} dollars!".format(days + kilometers))
+print("The costumer must to pay {} dollars!".format(payed))
