@@ -40,7 +40,7 @@ These exercises have some basic commands of the python language:
 * How to use "else"
 * How to use "elif"
 * How to change the colors of the letters in the print() function
-#### How it works
+##### How it works
 * \033["STYLE";"TEXT";"BACK"m
 
 * Style (0,1,3,4):
@@ -55,7 +55,7 @@ These exercises have some basic commands of the python language:
 * Back (40 - 47):
     Black, Red, Green, Yellow, Blue, Purple, Cian, Grey
 
-To use:
+* To use:
 \033["STYLE";"TEXT";"BACK"m"---colorful word---"\033[m
 
 * Exemple => \033[1;33;44mMy name is Vinícius\033[m
